@@ -1,11 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
-html{
-    height: 100%;
-}
 
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&display=swap');
+*{
+    box-sizing: border-box;
+}
 body{
-    background: url('../pics/bg-body.gif') green center center fixed;
-
-    font-family: "Bungee Spice", sans-serif;
+    background: url('../pics/bg-body.gif');
+    margin: 0;
+    font-family: "Bitcount Prop Single Ink", system-ui;
 }
-
+.box{
+    background-color: wheat;
+    max-width: 600px;
+    width: 90%;
+    border-left: 5px solid green;
+    border-right: 5px solid rgb(128, 64, 0);
+    margin: 40px auto;
+    box-shadow: 0 0 30px rgba(170, 9, 9, 0.311);
+}
+.box .box-content p{
+    color: aqua;
+}
+.box .header-image{
+    background-image: url('../pics/image1.jpg');
+    height: 200px;
+}
+.box-content{
+    padding: 20px;
+}
+.box-content h2{
+    margin: 0px;
+    color: forestgreen;
+}
+.box.box-2 .header-image{
+    background-image: url('../pics/image2.jpg');
+}
+.box .box-content .details {
+    margin: 16px 0px
+}
+.box .box-content .details a{
+    background-color: blue;
+    color: black;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+}
